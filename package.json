@@ -1,0 +1,23 @@
+{
+  "name": "oraculo-digital",
+  "version": "1.0.0",
+  "description": "SaaS de cartomancia com inteligência artificial",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "build": "npm run build:frontend && npm run build:backend",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && npm run build",
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "start": "cd backend && npm install && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+} 

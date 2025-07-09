@@ -1,0 +1,33 @@
+services:
+  # Backend API
+  - type: web
+    name: oraculo-digital-backend
+    env: node
+    plan: free
+    buildCommand: cd backend && npm install
+    startCommand: cd backend && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3001
+      - key: JWT_SECRET
+        generateValue: true
+      - key: OPENAI_API_KEY
+        sync: false
+    healthCheckPath: /api/health
+
+  # Frontend
+  - type: web
+    name: oraculo-digital-frontend
+    env: static
+    plan: free
+    buildCommand: cd frontend && npm install && npm run build
+    staticPublishPath: frontend/dist
+    envVars:
+      - key: VITE_API_URL
+        value: https://oraculo-digital-backend.onrender.com
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html 

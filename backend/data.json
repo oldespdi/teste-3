@@ -1,0 +1,99 @@
+{
+  "users": [
+    {
+      "id": "admin-1",
+      "name": "Administrador",
+      "email": "admin@oraculo.com",
+      "password": "$2a$10$dummy.hash.for.admin",
+      "sign": "Sagitário",
+      "age": 30,
+      "subscription_status": "active",
+      "subscription_plan": "monthly",
+      "created_at": "2025-07-09T19:13:23.641Z",
+      "updated_at": "2025-07-09T19:13:23.642Z"
+    },
+    {
+      "id": "40eb2d2f-f6d2-4e30-98d4-24a5d8fda0aa",
+      "name": "Test User",
+      "email": "test@example.com",
+      "password": "$2a$10$msJ8kAFb7noTdZsn3h0VBOI19dWo2DhB58CBhe/PMunN1AvvqiJeK",
+      "sign": "�ries",
+      "age": 25,
+      "subscription_status": "trial",
+      "subscription_plan": "trial",
+      "trial_ends_at": "2025-07-12T19:18:12.415Z",
+      "created_at": "2025-07-09T19:18:12.415Z",
+      "updated_at": "2025-07-09T19:18:12.415Z"
+    },
+    {
+      "id": "b64096ca-e7cb-45f9-9786-a3b2adf777bf",
+      "name": "Winicius",
+      "email": "cacazouly@outlook.com",
+      "password": "$2a$10$s07XgzAOaAj3RJwTaK5xeuYcoFwAr7Aw.EVuMQSPt8b3p.MRUcidW",
+      "sign": "Gêmeos",
+      "age": 20,
+      "subscription_status": "trial",
+      "subscription_plan": "trial",
+      "trial_ends_at": "2025-07-12T19:23:25.125Z",
+      "created_at": "2025-07-09T19:23:25.125Z",
+      "updated_at": "2025-07-09T19:23:25.125Z"
+    }
+  ],
+  "readings": [],
+  "readingCards": [],
+  "chatSessions": [],
+  "chatMessages": [],
+  "tarotCards": [
+    {
+      "id": "0",
+      "name": "O Louco",
+      "description": "Inocência, espontaneidade, novos começos",
+      "upright_meaning": "Novos começos, aventura, espontaneidade, liberdade",
+      "reversed_meaning": "Imprudência, risco, falta de direção",
+      "suit": "major",
+      "number": 0,
+      "created_at": "2025-07-09T19:13:23.642Z"
+    },
+    {
+      "id": "1",
+      "name": "O Mago",
+      "description": "Manifestação, poder, habilidade",
+      "upright_meaning": "Manifestação, poder, habilidade, concentração",
+      "reversed_meaning": "Manipulação, falta de habilidade, desperdício",
+      "suit": "major",
+      "number": 1,
+      "created_at": "2025-07-09T19:13:23.642Z"
+    },
+    {
+      "id": "2",
+      "name": "A Sacerdotisa",
+      "description": "Intuição, mistério, sabedoria interior",
+      "upright_meaning": "Intuição, mistério, sabedoria interior, conhecimento secreto",
+      "reversed_meaning": "Segredos, desconexão, falta de intuição",
+      "suit": "major",
+      "number": 2,
+      "created_at": "2025-07-09T19:13:23.642Z"
+    },
+    {
+      "id": "3",
+      "name": "A Imperatriz",
+      "description": "Fertilidade, abundância, maternidade",
+      "upright_meaning": "Fertilidade, abundância, maternidade, criatividade",
+      "reversed_meaning": "Estagnação, falta de crescimento, dependência",
+      "suit": "major",
+      "number": 3,
+      "created_at": "2025-07-09T19:13:23.642Z"
+    },
+    {
+      "id": "4",
+      "name": "O Imperador",
+      "description": "Autoridade, estrutura, controle",
+      "upright_meaning": "Autoridade, estrutura, controle, estabilidade",
+      "reversed_meaning": "Tirania, rigidez, falta de disciplina",
+      "suit": "major",
+      "number": 4,
+      "created_at": "2025-07-09T19:13:23.642Z"
+    }
+  ],
+  "payments": []
+}
