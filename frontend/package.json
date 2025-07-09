@@ -35,5 +35,8 @@
   },
   "keywords": ["tarot", "mystical", "react", "frontend"],
   "author": "Oráculo Digital",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
 } 
